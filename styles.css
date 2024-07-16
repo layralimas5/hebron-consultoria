@@ -1,0 +1,105 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções */
+section {
+    padding: 2rem 0;
+}
+
+section h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+.inicio {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.sobre-nos {
+    background: #e2e2e2;
+}
+
+.nossos-servicos {
+    background: #d1d1d1;
+}
+
+.fale-conosco {
+    background: #c1c1c1;
+}
+
+.fale-conosco form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fale-conosco label {
+    margin-top: 1rem;
+}
+
+.fale-conosco input, .fale-conosco textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.fale-conosco button {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+   
